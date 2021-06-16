@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  overflow-y: hidden;
+}
+.box1 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(87, 86, 86);
+}
+.box1 a {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 10px;
+  transition: 0.2s ease-in;
+}
+.box1 a:hover {
+  opacity: 70%;
+  transform: scale(1.2);
+}
+.box2 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(160, 100, 100);
+}
